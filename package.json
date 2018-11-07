@@ -1,0 +1,18 @@
+{
+  "name": "FECdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./proxy-server/proxy-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^3.0.0"
+  }
+}

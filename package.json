@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "grunt-contrib-cssmin": "^3.0.0"
+    "grunt-contrib-cssmin": "^3.0.0",
+    "uglify-js": "^3.4.9"
   }
 }

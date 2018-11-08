@@ -1,20 +1,27 @@
 {
-  "name": "FECdemo",
+  "name": "brian-louie-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "proxy for FEC",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./proxy-server/proxy-server.js"
+    "start": "nodemon proxy-server/proxy-server.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Only-the-Best/Brian-Louie-Proxy.git"
+  },
+  "keywords": [
+    "express",
+    "proxy"
+  ],
+  "author": "Brian Louie",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Only-the-Best/Brian-Louie-Proxy/issues"
+  },
+  "homepage": "https://github.com/Only-the-Best/Brian-Louie-Proxy#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.16.2"
-  },
-  "devDependencies": {
-    "grunt-contrib-cssmin": "^3.0.0",
-    "uglify-js": "^3.4.9"
+    "express": "^4.16.4"
   }
 }

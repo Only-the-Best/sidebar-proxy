@@ -1,0 +1,27 @@
+{
+  "name": "james-jiang-proxy",
+  "version": "1.0.0",
+  "description": "proxy for FEC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node proxy-server/proxy-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Only-the-Best/sidebar-proxy.git"
+  },
+  "keywords": [
+    "express",
+    "proxy"
+  ],
+  "author": "James Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Only-the-Best/sidebar-proxy/issues"
+  },
+  "homepage": "https://github.com/Only-the-Best/sidebar-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}

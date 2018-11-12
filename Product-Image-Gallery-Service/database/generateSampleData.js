@@ -15,17 +15,17 @@ const seed = [];
 let s3 = new AWS.S3({ apiVersion: '2006-03-01' });
 
 let params = {
-  Bucket: 'homedetails'
+  Bucket: 'fec2homephotos'
 };
 
 s3.listObjects(params, (err, data) => {
   if (err) {
     console.log(err);
   } else {
-    let baseURL = `https://s3-us-west-1.amazonaws.com/homedetails/`;
+    let baseURL = `https://s3-us-west-1.amazonaws.com/fec2homephotos/`;
     let generateImagesArr = () => {
       let imgArr = [];  
-      for (let i = 1; i <= data.Contents.length; i++) {
+      for (let i = 1; i <= 40; i++) {
         let randomIndex = Math.floor(Math.random() * data.Contents.length);
         if (!randomIndex) {
           randomIndex +=1;

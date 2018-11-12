@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = require ('./index.js');
+mongoose.Promise = global.Promise;
 
 const gallerySchema = new mongoose.Schema({
   id: Number,
@@ -11,7 +11,4 @@ const gallerySchema = new mongoose.Schema({
 });
 
 const Gallery = mongoose.model('Gallery', gallerySchema);
-
 module.exports = Gallery;
-
-
